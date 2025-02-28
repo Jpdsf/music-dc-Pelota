@@ -16,7 +16,7 @@ def run_bot():
 
     yt_dl_options = {
         "format": "bestaudio/best",
-        "cookies": "cookies.txt",  
+        "cookiesfrombrowser": ("chromium",), 
         "noplaylist": True,        
         "quiet": True,             
     }
